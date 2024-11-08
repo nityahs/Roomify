@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Room Booking</title>
+<link rel="stylesheet" href="room.css">
+</head>
+<body>
+<div class="booking-container">
+    <div class="logo-holder">
+        <img src="Logo.jpg" alt="Logo">
+    </div>
+    <h1>Room Booking</h1>
+    
+    <p>Base Price: ₹<span id="base-price">10000</span></p>
+    
+    <label>Start Date: <input type="date" id="start-date" required></label>
+    <label>End Date: <input type="date" id="end-date" required></label>
+    
+    <div class="extras">
+        <label><input type="checkbox" id="breakfast" onchange="updatePrice()"> Breakfast (+ ₹2500)</label>
+        <label><input type="checkbox" id="lunch" onchange="updatePrice()"> Lunch (+ ₹4000)</label>
+        <label><input type="checkbox" id="dinner" onchange="updatePrice()"> Dinner (+ ₹4500)</label>
+    </div>
+    
+    <p>Total Price: ₹<span id="total-price">10,000</span></p>
+    <button id="complete-booking" onclick="completeBooking()">Complete Booking</button>
+</div>
+
+<script type="module" src="book3.js"></script>
+</body>
+</html>

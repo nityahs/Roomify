@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+}
+ 
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+ 
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+ 
+header nav {
+    margin-top: 10px;
+}
+ 
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ 
+header nav ul li {
+    margin: 0 15px;
+}
+ 
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.hero-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+ 
+.hero-section h2 {
+    margin-bottom: 20px;
+}
+ 
+.rooms-section {
+    padding: 50px 0;
+    text-align: center;
+}
+ 
+.room-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+.room-card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+ 
+.room-card:hover {
+    transform: scale(1.05);
+}
+ 
+.room-card-content {
+    padding: 15px;
+}
+ 
+.room-card-content h4 {
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+ 
+.price {
+    font-weight: bold;
+    color: #007bff;
+}
+ 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+ 
+.btn:hover {
+    background-color: #0056b3;
+}
+ 
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

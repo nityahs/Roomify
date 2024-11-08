@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback Form</title>
+<link rel="stylesheet" href="feed.css">
+</head>
+<body>
+<div class="container">
+    <div class="logo-holder">
+        <img src="Logo.jpg" alt="Logo">
+      </div>
+<h2>Feedback Form</h2>
+<form id="feedbackForm">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+ 
+            <label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+ 
+            <label for="rating">Rate Us:</label>
+<select id="rating" name="rating">
+<option value="5">Excellent</option>
+<option value="4">Very Good</option>
+<option value="3">Good</option>
+<option value="2">Fair</option>
+<option value="1">Poor</option>
+</select>
+ 
+            <label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4"></textarea>
+ 
+            <button type="submit">Submit Feedback</button>
+<p id="statusMessage"></p>
+</form>
+</div>
+<script type='module' src="feedback.js"></script>
+</body>
+</html>

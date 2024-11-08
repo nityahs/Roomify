@@ -1,0 +1,305 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+ 
+h1, h2, h3, h4 {
+    text-align: center;
+}
+ 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+ 
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+ 
+header nav {
+    margin-top: 10px;
+}
+ 
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ 
+header nav ul li {
+    margin: 0 15px;
+}
+ 
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+/* Hero Section */
+.hero-section {
+    background: url('hero-bg.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    height: 70vh;
+}
+ 
+.hero-section h2 {
+    font-size: 48px;
+}
+ 
+.hero-section p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+ 
+.hero-section .btn {
+    background-color: #f8d210;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+ 
+.hero-section .btn:hover {
+    background-color: #e0b800;
+}
+ 
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+ 
+.about-section h3 {
+    font-size: 32px;
+}
+ 
+.about-section p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+/* Facilities Section */
+.facilities-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+ 
+.facilities-section h3 {
+    font-size: 32px;
+}
+ 
+.facility-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+ 
+.facility-item {
+    width: 22%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.facility-item h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+ 
+.facility-item p {
+    font-size: 16px;
+}
+ 
+/* Rooms Section */
+.rooms-section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+ 
+.rooms-section h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+ 
+.room-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ 
+.room-card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+ 
+.room-card img {
+    width: 100%;
+    height: auto;
+}
+ 
+.room-card-content {
+    padding: 20px;
+    text-align: center;
+}
+ 
+.room-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+ 
+.room-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ 
+.room-card .price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+ 
+.room-card .btn {
+    background-color: #f8d210;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+ 
+.room-card .btn:hover {
+    background-color: #e0b800;
+}
+ 
+/* Carousel Controls */
+.carousel-control-prev, .carousel-control-next {
+    width: 10%;
+}
+ 
+/* Pricing Section */
+.pricing-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+ 
+.pricing-section h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+ 
+.pricing-section table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+ 
+.pricing-section th, .pricing-section td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+ 
+.pricing-section th {
+    background-color: #333;
+    color: #000000;
+    font-size: 18px;
+}
+ 
+.pricing-section td {
+    font-size: 16px;
+}
+ 
+.pricing-section tr:nth-child(even) {
+    background-color: #ffffff;
+}
+ 
+/* Testimonials Section */
+.testimonials-section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+ 
+.testimonials-section h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+ 
+.testimonial {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+ 
+.testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+ 
+.testimonial h4 {
+    font-size: 16px;
+    color: #333;
+}
+ 
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+ 
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+ 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .facility-list, .room-cards {
+        flex-direction: column;
+    }
+ 
+    .facility-item, .room-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ 
+    .pricing-section table {
+        font-size: 14px;
+    }
+}
