@@ -1,17 +1,63 @@
 {
-    "users": {
-      "USER_ID_1": {
-        "email": "user1@example.com",
-        "name": "User One",
-        "signupDate": "2024-10-24",
-        "password":1234
-      },
-      "USER_ID_2": {
-        "email": "user2@example.com",
-        "name": "User Two",
-        "signupDate": "2024-10-23",
-        "password":2345
-      }
+  "booking": {
+    "breakfast": false,
+    "dinner": false,
+    "end_date": "",
+    "lunch": false,
+    "price": 20000,
+    "start_date": "",
+    "availability": {
+  "single": { "2024-10-25": false, "2024-10-26": true },
+  "double": { "2024-10-25": true, "2024-10-26": true },
+  "suite": { "2024-10-25": false, "2024-10-26": true }
+}
+
+  },
+  "feedback": {
+    "fb1": {
+      "comments": "Amazing experience out there",
+      "email": "abc@123",
+      "name": "abc",
+      "rating": "Excellent"
+    }
+  },
+  "rooms": {
+    "room1": {
+      "availability": true,
+      "occupancy": 1,
+      "price": 20000
+    },
+    "room2": {
+      "availability": false,
+      "occupancy": 2,
+      "price": 15000
+    },
+    "room3": {
+      "availability": true,
+      "occupancy": 3,
+      "price": 10000
+    }
+  },
+  "users": {
+    "User1": {
+      "email": "user@123",
+      "name": "ABC",
+      "password": 1234
+    },
+    "User2": {
+      "email": "user@234",
+      "name": "BCD",
+      "password": 2345
+    },
+    "User7537": {
+      "email": "sa@123",
+      "name": "as",
+      "password": "1234"
+    },
+    "User8929": {
+      "email": "ww@13",
+      "name": "wed",
+      "password": "1234"
     }
   }
-  
+}
